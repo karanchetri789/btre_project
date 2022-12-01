@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">   <!--Added-->
     <!-- Light Box -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">  <!--Added-->
-    <title>BT Real Estate</title>
+
+    <title>BT Real Estate {% block title %}{% endblock %}</title>   <!-- To add dynamic page names-->
 </head>
 
 <body>
